@@ -1,0 +1,23 @@
+{
+  "name": "bin-wave",
+  "description": "Binary to Wav(PCM) and back converter",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "author": "Keroosha",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.4.1",
+    "typescript": "4.4.4",
+    "ts-node": "10.4.0",
+    "@types/node": "16.11.7",
+    "@types/wav": "1.0.1"
+  }, 
+  "dependencies": {
+    "wav": "1.0.2"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "run": "node dist/index.js",
+    "dist": "tsc -b"
+  }
+}
